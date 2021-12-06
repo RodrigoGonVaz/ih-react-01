@@ -18,15 +18,15 @@ function App() {
   //HTML + JS = JSX
   return (
     <div className="App">
-
+     <Header nombre="Rod" ciudad="CDMX"/>
     <p>HOLA MUNDO</p>
     <p>ROD GON</p>
     <p>{12*12}</p>
     <p>{bootcamp}</p>
 
-    <Header nombre="Rod" ciudad="CDMX"/>
+    {/*
     <Header nombre="Mike" ciudad="EDOMEX"/>
-    <Header nombre="Sam" ciudad="Hidalgo"/>
+    <Header nombre="Sam" ciudad="Hidalgo"/> */}
 
 
     <hr />
