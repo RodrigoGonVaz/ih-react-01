@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css'; // ---> trae el archivo de css
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+ReactDOM.render(    //<---- invoca unos argumentos: el primer argumento tiene etiquetas html - componentes, pedasos de codigos
   <React.StrictMode>
     <App />
   </React.StrictMode>,
